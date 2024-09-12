@@ -1,0 +1,35 @@
+:root {
+	--text-dark: #2a024f;
+	--text-light: #e0e0e1;
+	--dark-purple: #4b0082;
+	--light-purple: #8a2be2;
+}
+
+html {
+	color: var(--text-light);
+	background-color: var(--dark-purple);
+}
+
+.scale {
+	transform: scale(1.5);
+}
+
+.font-monospace {
+	font-family: monospace;
+}
+
+.input-field {
+	border-width: 3px;
+	border-radius: 10px;
+	transition: all 0.2s ease-in;
+	border-color: var(--text-dark);
+	background-color: var(--text-dark);
+}
+
+.button-component {
+	border-width: 3px;
+	border-radius: 10px;
+	transition: all 0.2s ease-in;
+	border-color: var(--text-dark);
+	background-color: var(--text-dark);
+}
